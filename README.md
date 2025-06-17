@@ -1,2 +1,2 @@
-# ROS2
-How install ros2 humble in ubunto 22.04
+#Nodo en ROS2
+Clonar un nodo :D
