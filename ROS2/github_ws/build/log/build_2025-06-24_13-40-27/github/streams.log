@@ -1,0 +1,21 @@
+[0.340s] Invoking command in '/home/geovani/ROS2/github_ws/src/github': PYTHONPATH=/home/geovani/ROS2/github_ws/build/github/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/geovani/ROS2/github_ws/install/github/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/github build --build-base /home/geovani/ROS2/github_ws/build/github/build install --record /home/geovani/ROS2/github_ws/build/github/install.log --single-version-externally-managed install_data
+[0.487s] running egg_info
+[0.487s] writing ../../build/github/github.egg-info/PKG-INFO
+[0.487s] writing dependency_links to ../../build/github/github.egg-info/dependency_links.txt
+[0.487s] writing entry points to ../../build/github/github.egg-info/entry_points.txt
+[0.487s] writing requirements to ../../build/github/github.egg-info/requires.txt
+[0.487s] writing top-level names to ../../build/github/github.egg-info/top_level.txt
+[0.488s] reading manifest file '../../build/github/github.egg-info/SOURCES.txt'
+[0.489s] writing manifest file '../../build/github/github.egg-info/SOURCES.txt'
+[0.489s] running build
+[0.489s] running build_py
+[0.489s] running install
+[0.489s] running install_lib
+[0.489s] running install_data
+[0.489s] running install_egg_info
+[0.490s] removing '/home/geovani/ROS2/github_ws/install/github/lib/python3.10/site-packages/github-0.0.0-py3.10.egg-info' (and everything under it)
+[0.490s] Copying ../../build/github/github.egg-info to /home/geovani/ROS2/github_ws/install/github/lib/python3.10/site-packages/github-0.0.0-py3.10.egg-info
+[0.491s] running install_scripts
+[0.501s] Installing git = github.git:mainwakeword script to /home/geovani/ROS2/github_ws/install/github/lib/github
+[0.501s] writing list of installed files to '/home/geovani/ROS2/github_ws/build/github/install.log'
+[0.511s] Invoked command in '/home/geovani/ROS2/github_ws/src/github' returned '0': PYTHONPATH=/home/geovani/ROS2/github_ws/build/github/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/geovani/ROS2/github_ws/install/github/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/github build --build-base /home/geovani/ROS2/github_ws/build/github/build install --record /home/geovani/ROS2/github_ws/build/github/install.log --single-version-externally-managed install_data
