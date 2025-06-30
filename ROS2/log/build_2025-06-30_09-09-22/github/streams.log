@@ -1,0 +1,42 @@
+[0.321s] Invoking command in '/home/geovani/ROS2/github_ws/src/github': PYTHONPATH=/home/geovani/ROS2/build/github/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/geovani/ROS2/install/github/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/github build --build-base /home/geovani/ROS2/build/github/build install --record /home/geovani/ROS2/build/github/install.log --single-version-externally-managed install_data
+[0.441s] running egg_info
+[0.441s] writing ../../../build/github/github.egg-info/PKG-INFO
+[0.441s] writing dependency_links to ../../../build/github/github.egg-info/dependency_links.txt
+[0.441s] writing entry points to ../../../build/github/github.egg-info/entry_points.txt
+[0.441s] writing requirements to ../../../build/github/github.egg-info/requires.txt
+[0.441s] writing top-level names to ../../../build/github/github.egg-info/top_level.txt
+[0.442s] reading manifest file '../../../build/github/github.egg-info/SOURCES.txt'
+[0.442s] writing manifest file '../../../build/github/github.egg-info/SOURCES.txt'
+[0.442s] running build
+[0.443s] running build_py
+[0.443s] copying github/emociones.py -> /home/geovani/ROS2/build/github/build/lib/github
+[0.443s] copying github/arduino.py -> /home/geovani/ROS2/build/github/build/lib/github
+[0.443s] copying github/voz_node.py -> /home/geovani/ROS2/build/github/build/lib/github
+[0.443s] copying github/rostros.py -> /home/geovani/ROS2/build/github/build/lib/github
+[0.443s] copying github/nodotts.py -> /home/geovani/ROS2/build/github/build/lib/github
+[0.443s] copying github/model_node.py -> /home/geovani/ROS2/build/github/build/lib/github
+[0.443s] copying github/todo.py -> /home/geovani/ROS2/build/github/build/lib/github
+[0.443s] running install
+[0.443s] running install_lib
+[0.443s] copying /home/geovani/ROS2/build/github/build/lib/github/emociones.py -> /home/geovani/ROS2/install/github/lib/python3.10/site-packages/github
+[0.443s] copying /home/geovani/ROS2/build/github/build/lib/github/arduino.py -> /home/geovani/ROS2/install/github/lib/python3.10/site-packages/github
+[0.443s] copying /home/geovani/ROS2/build/github/build/lib/github/voz_node.py -> /home/geovani/ROS2/install/github/lib/python3.10/site-packages/github
+[0.443s] copying /home/geovani/ROS2/build/github/build/lib/github/rostros.py -> /home/geovani/ROS2/install/github/lib/python3.10/site-packages/github
+[0.443s] copying /home/geovani/ROS2/build/github/build/lib/github/nodotts.py -> /home/geovani/ROS2/install/github/lib/python3.10/site-packages/github
+[0.443s] copying /home/geovani/ROS2/build/github/build/lib/github/model_node.py -> /home/geovani/ROS2/install/github/lib/python3.10/site-packages/github
+[0.443s] copying /home/geovani/ROS2/build/github/build/lib/github/todo.py -> /home/geovani/ROS2/install/github/lib/python3.10/site-packages/github
+[0.444s] byte-compiling /home/geovani/ROS2/install/github/lib/python3.10/site-packages/github/emociones.py to emociones.cpython-310.pyc
+[0.444s] byte-compiling /home/geovani/ROS2/install/github/lib/python3.10/site-packages/github/arduino.py to arduino.cpython-310.pyc
+[0.445s] byte-compiling /home/geovani/ROS2/install/github/lib/python3.10/site-packages/github/voz_node.py to voz_node.cpython-310.pyc
+[0.445s] byte-compiling /home/geovani/ROS2/install/github/lib/python3.10/site-packages/github/rostros.py to rostros.cpython-310.pyc
+[0.446s] byte-compiling /home/geovani/ROS2/install/github/lib/python3.10/site-packages/github/nodotts.py to nodotts.cpython-310.pyc
+[0.446s] byte-compiling /home/geovani/ROS2/install/github/lib/python3.10/site-packages/github/model_node.py to model_node.cpython-310.pyc
+[0.447s] byte-compiling /home/geovani/ROS2/install/github/lib/python3.10/site-packages/github/todo.py to todo.cpython-310.pyc
+[0.447s] running install_data
+[0.447s] running install_egg_info
+[0.448s] removing '/home/geovani/ROS2/install/github/lib/python3.10/site-packages/github-0.0.0-py3.10.egg-info' (and everything under it)
+[0.448s] Copying ../../../build/github/github.egg-info to /home/geovani/ROS2/install/github/lib/python3.10/site-packages/github-0.0.0-py3.10.egg-info
+[0.449s] running install_scripts
+[0.458s] Installing git = github.git:mainwakeword script to /home/geovani/ROS2/install/github/lib/github
+[0.458s] writing list of installed files to '/home/geovani/ROS2/build/github/install.log'
+[0.467s] Invoked command in '/home/geovani/ROS2/github_ws/src/github' returned '0': PYTHONPATH=/home/geovani/ROS2/build/github/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/geovani/ROS2/install/github/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/github build --build-base /home/geovani/ROS2/build/github/build install --record /home/geovani/ROS2/build/github/install.log --single-version-externally-managed install_data

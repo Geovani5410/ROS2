@@ -1,0 +1,37 @@
+[0.424s] Invoking command in '/home/geovani/ROS2/github_ws/src/github': PYTHONPATH=/home/geovani/ROS2/build/github/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/geovani/ROS2/install/github/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/github build --build-base /home/geovani/ROS2/build/github/build install --record /home/geovani/ROS2/build/github/install.log --single-version-externally-managed install_data
+[0.565s] running egg_info
+[0.566s] creating ../../../build/github/github.egg-info
+[0.566s] writing ../../../build/github/github.egg-info/PKG-INFO
+[0.566s] writing dependency_links to ../../../build/github/github.egg-info/dependency_links.txt
+[0.566s] writing entry points to ../../../build/github/github.egg-info/entry_points.txt
+[0.566s] writing requirements to ../../../build/github/github.egg-info/requires.txt
+[0.566s] writing top-level names to ../../../build/github/github.egg-info/top_level.txt
+[0.566s] writing manifest file '../../../build/github/github.egg-info/SOURCES.txt'
+[0.567s] reading manifest file '../../../build/github/github.egg-info/SOURCES.txt'
+[0.567s] writing manifest file '../../../build/github/github.egg-info/SOURCES.txt'
+[0.567s] running build
+[0.567s] running build_py
+[0.567s] creating /home/geovani/ROS2/build/github/build
+[0.567s] creating /home/geovani/ROS2/build/github/build/lib
+[0.567s] creating /home/geovani/ROS2/build/github/build/lib/github
+[0.567s] copying github/__init__.py -> /home/geovani/ROS2/build/github/build/lib/github
+[0.567s] copying github/git.py -> /home/geovani/ROS2/build/github/build/lib/github
+[0.570s] running install
+[0.570s] running install_lib
+[0.570s] creating /home/geovani/ROS2/install/github/lib/python3.10/site-packages/github
+[0.571s] copying /home/geovani/ROS2/build/github/build/lib/github/__init__.py -> /home/geovani/ROS2/install/github/lib/python3.10/site-packages/github
+[0.571s] copying /home/geovani/ROS2/build/github/build/lib/github/git.py -> /home/geovani/ROS2/install/github/lib/python3.10/site-packages/github
+[0.571s] byte-compiling /home/geovani/ROS2/install/github/lib/python3.10/site-packages/github/__init__.py to __init__.cpython-310.pyc
+[0.571s] byte-compiling /home/geovani/ROS2/install/github/lib/python3.10/site-packages/github/git.py to git.cpython-310.pyc
+[0.571s] running install_data
+[0.571s] creating /home/geovani/ROS2/install/github/share/ament_index
+[0.571s] creating /home/geovani/ROS2/install/github/share/ament_index/resource_index
+[0.571s] creating /home/geovani/ROS2/install/github/share/ament_index/resource_index/packages
+[0.572s] copying resource/github -> /home/geovani/ROS2/install/github/share/ament_index/resource_index/packages
+[0.572s] copying package.xml -> /home/geovani/ROS2/install/github/share/github
+[0.572s] running install_egg_info
+[0.572s] Copying ../../../build/github/github.egg-info to /home/geovani/ROS2/install/github/lib/python3.10/site-packages/github-0.0.0-py3.10.egg-info
+[0.572s] running install_scripts
+[0.583s] Installing git script to /home/geovani/ROS2/install/github/lib/github
+[0.583s] writing list of installed files to '/home/geovani/ROS2/build/github/install.log'
+[0.593s] Invoked command in '/home/geovani/ROS2/github_ws/src/github' returned '0': PYTHONPATH=/home/geovani/ROS2/build/github/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/geovani/ROS2/install/github/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/github build --build-base /home/geovani/ROS2/build/github/build install --record /home/geovani/ROS2/build/github/install.log --single-version-externally-managed install_data
