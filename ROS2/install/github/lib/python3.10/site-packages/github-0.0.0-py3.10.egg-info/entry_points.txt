@@ -1,9 +1,0 @@
-[console_scripts]
-arduino = github.arduino:main
-git = github.git:mainwakeword = github.wakeword:mainemociones = github.emociones:main
-model_node = github.model_node:main
-nodotts = github.nodotts:main
-rostros = github.rostros:main
-todo = github.todo:main
-voz_node = github.voz_node:main
-
