@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/github/github.egg-info/PKG-INFO
+../../build/github/github.egg-info/SOURCES.txt
+../../build/github/github.egg-info/dependency_links.txt
+../../build/github/github.egg-info/entry_points.txt
+../../build/github/github.egg-info/requires.txt
+../../build/github/github.egg-info/top_level.txt
+../../build/github/github.egg-info/zip-safe
+github/__init__.py
+github/git.py
+github/wakeword.py
+resource/github
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
