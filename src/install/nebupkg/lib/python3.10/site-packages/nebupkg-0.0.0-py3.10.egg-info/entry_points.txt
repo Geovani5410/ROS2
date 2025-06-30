@@ -1,0 +1,8 @@
+[console_scripts]
+arduino = nebupkg.arduino:main
+emociones = nebupkg.emociones:main
+model_node = nebupkg.model_node:main
+rostros = nebupkg.rostros:main
+todo = nebupkg.todo:main
+voz_node = nebupkg.voz_node:main
+

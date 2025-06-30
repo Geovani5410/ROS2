@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/nebupkg/nebupkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/nebupkg/nebupkg.egg-info/dependency_links.txt
+writing entry points to ../../build/nebupkg/nebupkg.egg-info/entry_points.txt
+writing requirements to ../../build/nebupkg/nebupkg.egg-info/requires.txt
+writing top-level names to ../../build/nebupkg/nebupkg.egg-info/top_level.txt
+reading manifest file '../../build/nebupkg/nebupkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/nebupkg/nebupkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying nebupkg/todo.py -> /home/geovani/Descargas/h/nebufull/build/nebupkg/build/lib/nebupkg
+running install
+running install_lib
+copying /home/geovani/Descargas/h/nebufull/build/nebupkg/build/lib/nebupkg/todo.py -> /home/geovani/Descargas/h/nebufull/install/nebupkg/lib/python3.10/site-packages/nebupkg
+byte-compiling /home/geovani/Descargas/h/nebufull/install/nebupkg/lib/python3.10/site-packages/nebupkg/todo.py to todo.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/geovani/Descargas/h/nebufull/install/nebupkg/lib/python3.10/site-packages/nebupkg-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/nebupkg/nebupkg.egg-info to /home/geovani/Descargas/h/nebufull/install/nebupkg/lib/python3.10/site-packages/nebupkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing arduino script to /home/geovani/Descargas/h/nebufull/install/nebupkg/lib/nebupkg
+Installing emociones script to /home/geovani/Descargas/h/nebufull/install/nebupkg/lib/nebupkg
+Installing model_node script to /home/geovani/Descargas/h/nebufull/install/nebupkg/lib/nebupkg
+Installing nodotts script to /home/geovani/Descargas/h/nebufull/install/nebupkg/lib/nebupkg
+Installing rostros script to /home/geovani/Descargas/h/nebufull/install/nebupkg/lib/nebupkg
+Installing todo script to /home/geovani/Descargas/h/nebufull/install/nebupkg/lib/nebupkg
+Installing voz_node script to /home/geovani/Descargas/h/nebufull/install/nebupkg/lib/nebupkg
+writing list of installed files to '/home/geovani/Descargas/h/nebufull/build/nebupkg/install.log'

@@ -1,0 +1,164 @@
+[0.070s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.070s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f1e7ce52110>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f1e7ce51cc0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f1e7ce51cc0>>)[0m
+[0.157s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.157s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.157s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.157s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.157s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.157s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.157s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/geovani/Descargas/h/nebufull'
+[0.157s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.157s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.157s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.157s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.157s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.157s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.157s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.157s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.162s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.162s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.162s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.162s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.162s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.162s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.162s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.162s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.162s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/build) by extension 'ignore'
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/build) ignored
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/install) by extension 'ignore'
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/install) ignored
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/known_faces) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/known_faces) by extension 'ignore'
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/known_faces) by extension 'ignore_ament_install'
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/known_faces) by extensions ['colcon_pkg']
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/known_faces) by extension 'colcon_pkg'
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/known_faces) by extensions ['colcon_meta']
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/known_faces) by extension 'colcon_meta'
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/known_faces) by extensions ['ros']
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/known_faces) by extension 'ros'
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/known_faces) by extensions ['cmake', 'python']
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/known_faces) by extension 'cmake'
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/known_faces) by extension 'python'
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/known_faces) by extensions ['python_setup_py']
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/known_faces) by extension 'python_setup_py'
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/log) by extension 'ignore'
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/log) ignored
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nebupkg) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nebupkg) by extension 'ignore'
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nebupkg) by extension 'ignore_ament_install'
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nebupkg) by extensions ['colcon_pkg']
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nebupkg) by extension 'colcon_pkg'
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nebupkg) by extensions ['colcon_meta']
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nebupkg) by extension 'colcon_meta'
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nebupkg) by extensions ['ros']
+[0.163s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/nebupkg) by extension 'ros'
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/nebupkg' with type 'ros.ament_python' and name 'nebupkg'[0m
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rostros) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rostros) by extension 'ignore'
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rostros) by extension 'ignore_ament_install'
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rostros) by extensions ['colcon_pkg']
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rostros) by extension 'colcon_pkg'
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rostros) by extensions ['colcon_meta']
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rostros) by extension 'colcon_meta'
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rostros) by extensions ['ros']
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rostros) by extension 'ros'
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rostros) by extensions ['cmake', 'python']
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rostros) by extension 'cmake'
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rostros) by extension 'python'
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rostros) by extensions ['python_setup_py']
+[0.165s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rostros) by extension 'python_setup_py'
+[0.165s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.165s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.165s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.165s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.165s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.172s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.172s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.172s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 1 installed packages in /home/geovani/Descargas/h/nebufull/install[0m
+[0.173s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 314 installed packages in /opt/ros/humble[0m
+[0.174s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.189s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'nebupkg' build argument 'cmake_args' from command line to 'None'
+[0.189s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'nebupkg' build argument 'cmake_target' from command line to 'None'
+[0.189s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'nebupkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.189s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'nebupkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.189s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'nebupkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.189s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'nebupkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.189s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'nebupkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.189s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'nebupkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.189s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'nebupkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.189s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'nebupkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/geovani/Descargas/h/nebufull/build/nebupkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/geovani/Descargas/h/nebufull/install/nebupkg', 'merge_install': False, 'path': '/home/geovani/Descargas/h/nebufull/src/nebupkg', 'symlink_install': False, 'test_result_base': None}[0m
+[0.189s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.190s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.190s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/geovani/Descargas/h/nebufull/src/nebupkg' with build type 'ament_python'
+[0.190s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('nebupkg', 'ament_prefix_path')
+[0.191s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.191s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/geovani/Descargas/h/nebufull/install/nebupkg/share/nebupkg/hook/ament_prefix_path.ps1'
+[0.191s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/geovani/Descargas/h/nebufull/install/nebupkg/share/nebupkg/hook/ament_prefix_path.dsv'
+[0.192s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/geovani/Descargas/h/nebufull/install/nebupkg/share/nebupkg/hook/ament_prefix_path.sh'
+[0.192s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.192s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.328s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/geovani/Descargas/h/nebufull/src/nebupkg'
+[0.328s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.328s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.520s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/geovani/Descargas/h/nebufull/src/nebupkg': PYTHONPATH=/home/geovani/Descargas/h/nebufull/build/nebupkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/geovani/Descargas/h/nebufull/install/nebupkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nebupkg build --build-base /home/geovani/Descargas/h/nebufull/build/nebupkg/build install --record /home/geovani/Descargas/h/nebufull/build/nebupkg/install.log --single-version-externally-managed install_data[0m
+[0.664s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/geovani/Descargas/h/nebufull/src/nebupkg' returned '0': PYTHONPATH=/home/geovani/Descargas/h/nebufull/build/nebupkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/geovani/Descargas/h/nebufull/install/nebupkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nebupkg build --build-base /home/geovani/Descargas/h/nebufull/build/nebupkg/build install --record /home/geovani/Descargas/h/nebufull/build/nebupkg/install.log --single-version-externally-managed install_data[0m
+[0.665s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Descargas/h/nebufull/install/nebupkg' for CMake module files
+[0.665s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Descargas/h/nebufull/install/nebupkg' for CMake config files
+[0.666s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Descargas/h/nebufull/install/nebupkg/lib'
+[0.666s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Descargas/h/nebufull/install/nebupkg/bin'
+[0.666s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Descargas/h/nebufull/install/nebupkg/lib/pkgconfig/nebupkg.pc'
+[0.666s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Descargas/h/nebufull/install/nebupkg/lib/python3.10/site-packages'
+[0.666s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('nebupkg', 'pythonpath')
+[0.666s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/geovani/Descargas/h/nebufull/install/nebupkg/share/nebupkg/hook/pythonpath.ps1'
+[0.666s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/geovani/Descargas/h/nebufull/install/nebupkg/share/nebupkg/hook/pythonpath.dsv'
+[0.667s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/geovani/Descargas/h/nebufull/install/nebupkg/share/nebupkg/hook/pythonpath.sh'
+[0.667s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/geovani/Descargas/h/nebufull/install/nebupkg/bin'
+[0.667s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(nebupkg)
+[0.667s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/geovani/Descargas/h/nebufull/install/nebupkg/share/nebupkg/package.ps1'
+[0.667s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/geovani/Descargas/h/nebufull/install/nebupkg/share/nebupkg/package.dsv'
+[0.667s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/geovani/Descargas/h/nebufull/install/nebupkg/share/nebupkg/package.sh'
+[0.668s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/geovani/Descargas/h/nebufull/install/nebupkg/share/nebupkg/package.bash'
+[0.668s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/geovani/Descargas/h/nebufull/install/nebupkg/share/nebupkg/package.zsh'
+[0.668s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/geovani/Descargas/h/nebufull/install/nebupkg/share/colcon-core/packages/nebupkg)
+[0.668s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[0.669s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[0.669s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[0.669s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[0.671s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.671s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.671s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[0.678s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[0.678s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/geovani/Descargas/h/nebufull/install/local_setup.ps1'
+[0.679s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/geovani/Descargas/h/nebufull/install/_local_setup_util_ps1.py'
+[0.680s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/geovani/Descargas/h/nebufull/install/setup.ps1'
+[0.681s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/geovani/Descargas/h/nebufull/install/local_setup.sh'
+[0.681s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/geovani/Descargas/h/nebufull/install/_local_setup_util_sh.py'
+[0.681s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/geovani/Descargas/h/nebufull/install/setup.sh'
+[0.682s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/geovani/Descargas/h/nebufull/install/local_setup.bash'
+[0.682s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/geovani/Descargas/h/nebufull/install/setup.bash'
+[0.683s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/geovani/Descargas/h/nebufull/install/local_setup.zsh'
+[0.683s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/geovani/Descargas/h/nebufull/install/setup.zsh'

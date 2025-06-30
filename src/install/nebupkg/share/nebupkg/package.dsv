@@ -1,0 +1,6 @@
+source;share/nebupkg/hook/pythonpath.ps1
+source;share/nebupkg/hook/pythonpath.dsv
+source;share/nebupkg/hook/pythonpath.sh
+source;share/nebupkg/hook/ament_prefix_path.ps1
+source;share/nebupkg/hook/ament_prefix_path.dsv
+source;share/nebupkg/hook/ament_prefix_path.sh
