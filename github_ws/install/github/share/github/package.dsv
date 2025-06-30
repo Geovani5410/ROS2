@@ -1,6 +1,0 @@
-source;share/github/hook/pythonpath.ps1
-source;share/github/hook/pythonpath.dsv
-source;share/github/hook/pythonpath.sh
-source;share/github/hook/ament_prefix_path.ps1
-source;share/github/hook/ament_prefix_path.dsv
-source;share/github/hook/ament_prefix_path.sh
